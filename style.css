@@ -53,14 +53,6 @@ label {
 	line-height: 1.1;
 }
 
-/* Balance text wrapping on headings */
-h1,
-h2,
-h3,
-h4 {
-	text-wrap: balance;
-}
-
 /* A elements that don't have a class get default styles */
 a:not([class]) {
 	text-decoration-skip-ink: auto;
@@ -230,7 +222,7 @@ section p {
 	margin-top: 20px;
 }
 
-@media (min-width: 630px) and (max-width: 975px)  {
+@media screen and (min-width: 630px) and (max-width: 969px)  {
 		.between{
 		flex-direction: row;
 	}

@@ -143,7 +143,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	margin-bottom: 1000px;
+	margin-bottom: 100px;
+	align-content: center;
 }
 
 h1 {
@@ -159,22 +160,38 @@ h2 {
 	margin: 25px;
 }
 .cards-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	flex-wrap: wrap;
-	gap: 15px;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 30px;
 	overflow: hidden;
 	align-items: center;
 	justify-content: center;
-	max-width: 1200px;
+	align-content: center;
 }
 
 section {
 	border-radius: 5px;
-	height: 300px;
-	width: 350px;
+	width: 250px;
 	background: white;
+	box-shadow: 0 0 20px 0px #0000003d;
+	padding: 25px;
+	text-align: left;
+	position: relative;
+	box-sizing: border-box;
+	height: max-content;
 }
+
+.between{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.section p{
+	margin: 10px;
+	padding: 10px;
+}
+
 
 .cyan {
 	border-top: 3px solid var(--clr-cyan);

@@ -229,3 +229,9 @@ section p {
 	align-items: flex-end;
 	margin-top: 20px;
 }
+
+@media (min-width: 630px) and (max-width: 975px)  {
+		.between{
+		flex-direction: row;
+	}
+}
